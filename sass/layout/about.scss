@@ -1,0 +1,22 @@
+//about 
+.subtitle-about {
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0 20px 0;
+  font-size: 1.2rem;
+}
+
+.badges-about {
+  text-align: center;
+}
+
+.badge-about {
+  display: inline-block;
+  padding: 4px;
+  margin: 5px;
+  border-radius: 4px;
+
+  background-color: $white-color;
+  color: $primary-color;
+  font-weight: bold;
+}

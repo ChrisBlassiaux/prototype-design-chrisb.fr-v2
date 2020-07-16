@@ -347,7 +347,7 @@ body {
 }
 
 .workweb-show-title {
-  margin: 40px 0;
+  margin: 40px auto;
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
@@ -357,7 +357,7 @@ body {
 .workweb-show-after {
   display: inline-block;
   height: 6px;
-  width: 50px;
+  width: 30px;
   margin: 10px 15px;
   background-color: #7699D4;
   border-radius: 2px;
@@ -491,6 +491,26 @@ body {
   .footer-icons .icon {
     height: 30px;
   }
+}
+.subtitle-about {
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0 20px 0;
+  font-size: 1.2rem;
+}
+
+.badges-about {
+  text-align: center;
+}
+
+.badge-about {
+  display: inline-block;
+  padding: 4px;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: #FFF;
+  color: #141C38;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
