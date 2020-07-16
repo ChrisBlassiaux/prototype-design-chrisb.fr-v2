@@ -67,6 +67,10 @@ body {
   color: #FFF;
 }
 
+img {
+  border-radius: 6px;
+}
+
 .bg-primary {
   background-color: #141C38 !important;
 }
@@ -83,6 +87,12 @@ body {
 
 .container {
   max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+.container-small {
+  max-width: 760px;
   margin: 0 auto;
   padding: 40px 30px;
 }
@@ -269,7 +279,6 @@ body {
   width: 100%;
   height: auto;
   transition: opacity 0.3s;
-  border-radius: 6px;
 }
 
 .worksweb-child {
@@ -320,6 +329,49 @@ body {
 
   .worksweb-child img {
     height: 300px;
+  }
+}
+.workweb-show-return {
+  margin-bottom: 15px;
+}
+
+.workweb-show-img {
+  width: 100%;
+}
+
+.contain-show-title {
+  display: flex;
+  align-items: center;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+}
+
+.workweb-show-title {
+  margin: 40px 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.workweb-show-before,
+.workweb-show-after {
+  display: inline-block;
+  height: 6px;
+  width: 50px;
+  margin: 10px 15px;
+  background-color: #7699D4;
+  border-radius: 2px;
+}
+
+@media only screen and (min-width: 700px) {
+  .workweb-show-title {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .workweb-show-before,
+.workweb-show-after {
+    width: 100px;
   }
 }
 .footer {

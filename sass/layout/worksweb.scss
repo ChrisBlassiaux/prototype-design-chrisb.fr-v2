@@ -1,4 +1,4 @@
-//worksweb
+//worksweb index
 .worksweb-container {
   display: grid;
   grid-gap: 30px;
@@ -8,7 +8,6 @@
   width: 100%;
   height: auto;
   transition: opacity .3s;
-  border-radius: 6px;
 }
 
 .worksweb-child {
@@ -59,5 +58,53 @@
   
   .worksweb-child img {
     height: 300px;
+  }
+}
+
+//worksweb show
+.workweb-show-return {
+  margin-bottom: 15px;
+}
+
+.workweb-show-img {
+  width: 100%;
+}
+
+.contain-show-title {
+  display: flex;
+  align-items: center;
+
+  line-height: 1.8rem;
+  text-transform: uppercase;
+}
+
+.workweb-show-title {
+  margin: 40px 0;
+
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.workweb-show-before, 
+.workweb-show-after {
+  display: inline-block;
+  height: 6px;
+  width: 50px;
+
+  margin: 10px 15px;
+  background-color: $info-color;
+  border-radius: 2px;
+}
+
+@media only screen and (min-width: 700px) {
+  .workweb-show-title {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .workweb-show-before, 
+  .workweb-show-after {
+    width: 100px;
   }
 }

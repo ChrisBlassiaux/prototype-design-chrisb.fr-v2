@@ -24,6 +24,11 @@ body {
   color: $white-color;
 }
 
+img {
+  border-radius: 6px;
+}
+
 .bg-primary {
   background-color: $primary-color !important;
 }
+
