@@ -82,7 +82,7 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 40px 30px;
 }
@@ -258,6 +258,67 @@ body {
 
   .menu {
     width: 200px;
+  }
+}
+.worksweb-container {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.worksweb-child-img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s;
+}
+
+.worksweb-child {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.worksweb-child-img:hover {
+  opacity: 0.5;
+}
+
+.worksweb-child-overlay-icons {
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.worksweb-child:hover .worksweb-child-overlay-icons {
+  opacity: 1;
+}
+
+.worksweb-child-icons {
+  padding: 0 20px;
+  transition: color 0.3s;
+}
+
+.worksweb-child-icons:hover {
+  color: #141C38;
+}
+
+@media only screen and (min-width: 850px) {
+  .worksweb-container {
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 40px;
+  }
+
+  .worksweb-child img {
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .worksweb-container {
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 40px;
+  }
+
+  .worksweb-child img {
+    height: 300px;
   }
 }
 
