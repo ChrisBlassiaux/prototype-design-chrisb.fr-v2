@@ -269,6 +269,7 @@ body {
   width: 100%;
   height: auto;
   transition: opacity 0.3s;
+  border-radius: 6px;
 }
 
 .worksweb-child {
@@ -319,6 +320,63 @@ body {
 
   .worksweb-child img {
     height: 300px;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 60px;
+  text-align: center;
+  color: #141C38;
+  background-color: #FFF;
+}
+
+.contain-footer {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.footer-name {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-line {
+  margin: 15px auto;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #141C38;
+}
+
+.footer-icons a {
+  margin: 0 5px;
+}
+
+.footer-icons a:hover {
+  color: #7699D4;
+}
+
+@media only screen and (min-width: 850px) {
+  .footer {
+    display: block;
+    height: 220px;
+    padding: 70px 0px;
+    text-align: left;
+  }
+
+  .footer-name {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .footer-icons {
+    float: right;
+  }
+
+  .footer-icons .icon {
+    height: 30px;
   }
 }
 

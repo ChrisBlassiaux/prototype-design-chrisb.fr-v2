@@ -1,0 +1,66 @@
+//footer
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 300px;
+  margin-top: 60px;
+
+  text-align: center;
+  color: $primary-color;
+
+  background-color: $white-color;
+}
+
+.contain-footer {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.footer-name {
+  margin-bottom: 15px;
+
+  font-weight: bold;
+}
+
+.footer-line {
+  margin: 15px auto;
+  height: 2px;
+
+  border-radius: 2px;
+  
+  background-color: $primary-color;
+}
+
+.footer-icons a {
+  margin: 0 5px;
+}
+
+.footer-icons a:hover {
+  color: $info-color;
+}
+
+@media only screen and (min-width: 850px) {
+
+  .footer {
+    display: block;
+    height: 220px;
+    padding: 70px 0px;
+    text-align: left;
+  }
+
+  .footer-name {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .footer-icons {
+    float: right;
+  }
+
+  .footer-icons .icon {
+    height: 30px;
+  }
+}
