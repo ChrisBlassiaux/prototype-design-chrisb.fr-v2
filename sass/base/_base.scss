@@ -1,0 +1,29 @@
+
+// colors
+$primary-color: #141C38;
+$secondary-color: #202C57;
+
+$light-color: #FFEEDD;
+$white-color: #FFF;
+
+$info-color: #7699D4;
+$success-color: #76d49d;
+$danger-color: #d47676;
+$warning-color: #d2d476;
+
+//base CSS
+a {
+  color: inherit;
+  text-decoration: none;
+
+  transition: color .3s;
+}
+
+body {
+  background-color: $primary-color;
+  color: $white-color;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+}

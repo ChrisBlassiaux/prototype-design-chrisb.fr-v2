@@ -1,0 +1,264 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+body {
+  background-color: #141C38;
+  color: #FFF;
+}
+
+.bg-primary {
+  background-color: #141C38 !important;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Monserrat", sans-serif;
+  line-height: 1.625;
+  color: #FFF;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+/*Modal-Box*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding: 2%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  height: 93vh;
+  background-color: #202C57;
+}
+
+.modal-header {
+  padding: 0 16px;
+  background-color: #202C57;
+  border-bottom: none;
+  height: 15vh;
+}
+
+.modal-body {
+  padding: 0 16px;
+  max-width: 1000px;
+  margin: 45px auto 0 auto;
+  background-color: #202C57;
+}
+
+.modal-body-univers {
+  float: left;
+  height: 500px;
+  width: 600px;
+  margin: 0 80px 0 0;
+  border: 2px solid #FFF;
+  display: inline-block;
+}
+
+.modal-body-nav {
+  font-size: 2.3rem;
+  line-height: 5rem;
+}
+
+.modal-footer {
+  padding: 0 16px;
+  margin-top: 70px;
+  background-color: #202C57;
+}
+
+.modal-footer-icons .fa {
+  margin: 0 10px;
+}
+
+.iconify {
+  height: 42px;
+  width: 42px;
+}
+
+.modal-footer-line {
+  display: inline-block;
+  margin-top: 25px;
+  height: 1px;
+  width: 80px;
+  background-color: #FFF;
+}
+
+.navigation a:hover {
+  color: #7699D4;
+}
+
+.close {
+  color: #FFF;
+  float: left;
+  font-size: 3em;
+  opacity: 1;
+}
+
+.close:hover,
+.close:focus {
+  color: #7699D4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1150px) {
+  .modal-content {
+    height: 97vh;
+  }
+
+  .modal-header {
+    height: 10vh;
+  }
+
+  .modal-body {
+    padding: 0 40px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .modal-body-univers {
+    float: none;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .modal-body-nav {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
+
+  .modal-body-nav a {
+    display: block;
+  }
+
+  .modal-footer {
+    text-align: center;
+    margin-top: 0;
+    padding: 25px 0;
+  }
+
+  .modal-footer-icons .fa {
+    font-size: 2rem;
+  }
+
+  .iconify {
+    height: 30px;
+    width: 30px;
+  }
+
+  .modal-footer-line {
+    display: none;
+  }
+
+  .modal-footer-text {
+    display: none;
+  }
+}
+.menu {
+  border: solid 1px #FFF;
+  width: 300px;
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 400px) {
+  .modal-body-nav {
+    font-size: 1.7rem;
+    line-height: 3.5rem;
+  }
+
+  .modal-footer {
+    padding: 30px 0 10px 0;
+  }
+
+  .modal-body-univers {
+    height: 250px;
+  }
+
+  .menu {
+    width: 200px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
