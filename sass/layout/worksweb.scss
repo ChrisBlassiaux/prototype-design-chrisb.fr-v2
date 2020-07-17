@@ -36,8 +36,21 @@
   transition: color .3s;
 }
 
+.icons-show-more {
+  text-align: center;
+}
+
+.worksweb-show-child-icons {
+  margin: 40px 10px;
+  transition: color .3s;
+}
+
 .worksweb-child-icons:hover {
   color: $primary-color;
+}
+
+.worksweb-show-child-icons:hover {
+  color: $info-color;
 }
 
 @media only screen and (min-width: 850px) {

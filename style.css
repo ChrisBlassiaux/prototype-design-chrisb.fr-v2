@@ -138,6 +138,7 @@ body {
   width: 100%;
   height: 93vh;
   background-color: #202C57;
+  border-radius: 10px;
 }
 
 .modal-header {
@@ -145,6 +146,7 @@ body {
   background-color: #202C57;
   border-bottom: none;
   height: 15vh;
+  border-radius: 10px;
 }
 
 .modal-body {
@@ -328,8 +330,21 @@ body {
   transition: color 0.3s;
 }
 
+.icons-show-more {
+  text-align: center;
+}
+
+.worksweb-show-child-icons {
+  margin: 40px 10px;
+  transition: color 0.3s;
+}
+
 .worksweb-child-icons:hover {
   color: #141C38;
+}
+
+.worksweb-show-child-icons:hover {
+  color: #7699D4;
 }
 
 @media only screen and (min-width: 850px) {
@@ -688,6 +703,10 @@ body {
     background-color: #7699D4;
     border-radius: 100%;
   }
+}
+.container-carrousels {
+  display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */
