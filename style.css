@@ -75,6 +75,27 @@ img {
   background-color: #141C38 !important;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.link {
+  color: #7699D4;
+  font-weight: 700;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  margin: 5px 0 10px 0;
+}
+
 html {
   font-size: 16px;
 }
@@ -495,8 +516,12 @@ body {
 .subtitle-about {
   font-weight: bold;
   text-align: center;
-  margin: 40px 0 20px 0;
+  margin: 50px 0 20px 0;
   font-size: 1.2rem;
+}
+
+.margin-title-about {
+  margin-top: 100px;
 }
 
 .badges-about {
@@ -505,12 +530,164 @@ body {
 
 .badge-about {
   display: inline-block;
-  padding: 4px;
+  padding: 4px 7px;
   margin: 5px;
   border-radius: 4px;
   background-color: #FFF;
   color: #141C38;
   font-weight: bold;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills img {
+  height: 50px;
+  margin: 5px 10px;
+}
+
+.bulle {
+  position: relative;
+  padding: 15px;
+  border-radius: 8px;
+  color: #141C38;
+  background-color: #FFF;
+}
+
+.xp {
+  display: flex;
+  max-width: 375px;
+}
+
+.xp-bulle {
+  margin: 50px 0;
+}
+
+.xp-bulle::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 48px;
+  right: -10px;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+  border-left: 20px solid #FFF;
+}
+
+.xp-bulle-date {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.about-thread-xp {
+  height: 1100px;
+  width: 18px;
+  margin: 0 30px;
+  background-color: #7699D4;
+  border-radius: 20px;
+}
+
+.support-bulle-circle-xp {
+  height: 40px;
+  width: 40px;
+  background-color: #FFF;
+  border-radius: 100%;
+  position: relative;
+  left: -10px;
+  top: 95px;
+}
+
+.support-bulle-circle-into-xp {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 10px;
+  top: 10px;
+  background-color: #7699D4;
+  border-radius: 100%;
+}
+
+.about-wireframe {
+  display: inline-block;
+  width: 80%;
+  margin: 50px 10% 20px 10%;
+}
+
+.about-contributor-bulles {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px 100px;
+}
+
+.contributor-bulle {
+  text-align: center;
+}
+
+.contributor-bulle-desc {
+  min-height: 60px;
+}
+
+.contributor-bulle-name {
+  text-transform: uppercase;
+  display: block;
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+  .about-contributor-bulles {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 7%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .contributor-bulle::after {
+    content: "";
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #FFF;
+    position: absolute;
+    left: 43%;
+    right: 43%;
+  }
+
+  .about-support-bulle {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .support-bulle-line {
+    height: 18px;
+    width: 32.3%;
+    background-color: #7699D4;
+    border-radius: 20px;
+  }
+
+  .line-first,
+.line-last {
+    width: 12.3%;
+  }
+
+  .support-bulle-circle {
+    height: 40px;
+    width: 40px;
+    background-color: #FFF;
+    border-radius: 100%;
+    margin: 3px;
+    position: relative;
+  }
+
+  .support-bulle-circle-into {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 10px;
+    top: 10px;
+    background-color: #7699D4;
+    border-radius: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

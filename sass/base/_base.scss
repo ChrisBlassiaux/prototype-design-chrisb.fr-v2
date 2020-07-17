@@ -32,3 +32,24 @@ img {
   background-color: $primary-color !important;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.link {
+  color: $info-color;
+  font-weight: 700;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  line-height: 1.3rem;
+}
+
+.subtitle {
+  font-size: .8rem;
+  margin: 5px 0 10px 0;
+}
+
