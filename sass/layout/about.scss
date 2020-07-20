@@ -74,7 +74,7 @@
 }
 
 .about-thread-xp {
-  height: 1100px;
+  height: 1120px;
   width: 18px;
 
   margin: 0 30px;
@@ -89,8 +89,9 @@
   background-color: $white-color;
   border-radius: 100%;
   position: relative;
-  left: -10px;
+  margin: 95px 0 95px -11px;
   top: 95px;
+  position: sticky;
 }
 
 .support-bulle-circle-into-xp {

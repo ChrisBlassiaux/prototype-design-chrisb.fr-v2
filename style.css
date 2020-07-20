@@ -371,6 +371,16 @@ body {
   margin-bottom: 15px;
 }
 
+.text-move {
+  display: inline-block;
+  margin-left: 7px;
+  transition: 0.3s;
+}
+
+.workweb-show-return:hover .text-move {
+  margin-left: 13px;
+}
+
 .workweb-show-img {
   width: 100%;
 }
@@ -453,8 +463,13 @@ body {
   color: #7699D4;
 }
 
-.card-link i {
-  margin-left: 10px;
+.card-link .icon-move {
+  margin-left: 7px;
+  transition: 0.3s;
+}
+
+.card:hover .icon-move {
+  margin-left: 13px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -468,7 +483,7 @@ body {
   .container-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 80px;
+    grid-gap: 70px;
   }
 }
 .footer {
@@ -597,7 +612,7 @@ body {
 }
 
 .about-thread-xp {
-  height: 1100px;
+  height: 1120px;
   width: 18px;
   margin: 0 30px;
   background-color: #7699D4;
@@ -610,8 +625,9 @@ body {
   background-color: #FFF;
   border-radius: 100%;
   position: relative;
-  left: -10px;
+  margin: 95px 0 95px -11px;
   top: 95px;
+  position: sticky;
 }
 
 .support-bulle-circle-into-xp {
@@ -704,11 +720,6 @@ body {
     border-radius: 100%;
   }
 }
-.container-carrousels {
-  display: flex;
-  justify-content: space-around;
-}
-
 .form {
   color: #141C38;
   background: #F9F9F9;

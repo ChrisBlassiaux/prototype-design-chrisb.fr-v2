@@ -79,6 +79,16 @@
   margin-bottom: 15px;
 }
 
+.text-move {
+  display: inline-block;
+  margin-left: 7px;
+  transition: .3s;
+}
+
+.workweb-show-return:hover .text-move {
+  margin-left: 13px;
+}
+
 .workweb-show-img {
   width: 100%;
 }
